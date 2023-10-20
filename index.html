@@ -1,0 +1,137 @@
+/* Mudassir Mushtaq */
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html CSS Infinite Slider</title>
+
+
+    <style>
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-250px * 7));
+            }
+        }
+
+        .slider {
+            height: 100px;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            width: auto;
+            margin-bottom: 20px;
+        }
+
+        .slide-track {
+            animation: scroll 40s linear infinite;
+            /* Directly specify the animation duration here */
+            display: flex;
+            width: calc(250px * 14);
+            gap: 20px;
+        }
+
+        .slide {
+
+            display: flex;
+            height: auto;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(207, 203, 203, 0.342);
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .slide img {
+
+            object-fit: contain;
+            object-position: center;
+            height: 50px;
+            width: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+                <div class="slide"><img
+                        src="https://myeq360.com/wp-content/uploads/2023/10/illinois_primary_wordmark_reversed_orange.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+
+
+
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+                <div class="slide"><img
+                        src="https://myeq360.com/wp-content/uploads/2023/10/illinois_primary_wordmark_reversed_orange.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+                <div class="slide"><img
+                        src="https://myeq360.com/wp-content/uploads/2023/10/illinois_primary_wordmark_reversed_orange.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/sonafi.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/cps-logo-2022_cpsblue.png"
+                        alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/UIC.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/project.png" alt="" /></div>
+                <div class="slide"><img src="https://myeq360.com/wp-content/uploads/2023/10/logo-astound-vertical.png"
+                        alt="" /></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
